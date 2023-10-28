@@ -250,7 +250,6 @@
             word-wrap: break-word;
         }
 
-
         .attendance {
             width: 300px;
             height: 30px;
@@ -265,4 +264,85 @@
         .Img {
             width: 300px;
         }
+
+        .mainmenu-right {
+            display: none;
+        }
+
     }
+
+@media screen and (max-width: 550px) {
+    .mainmenu {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        color: #e50914; 
+        font-size: 30px; 
+        font-family: Rubik; 
+        font-weight: 700; 
+        word-wrap: break-word
+    }
+    
+    .bannerinfo_1 {
+        font-size: 20px;
+    }
+
+    .bannerinfo_2 {
+        font-size: 30px;
+    }
+
+    .poster {
+            width: 200px; 
+            height: 250px;
+        }
+
+    .bannerinfo2 {
+        height: 184px; 
+        color: white; 
+        font-size: 10px;
+        font-family: Lora; 
+        font-weight: normal; 
+        word-wrap: break-word
+    }
+
+    .main {
+        font-size: 25px;
+    }
+
+    .ListItem {
+        margin: 15px 75px;
+    }
+
+    .movietitle {
+        width: 250px;
+        height: 30px;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-family: Lora;
+        font-weight: bold;
+        word-wrap: break-word;
+    }
+
+    .attendance {
+        width: 250px;
+        height: 30px;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        font-family: Lora;
+        font-weight: normal;
+        word-wrap: break-word
+    }
+
+    .Img {
+        width: 250px;
+    }
+
+    .mainmenu-right {
+        display: none;
+    }
+
+}
