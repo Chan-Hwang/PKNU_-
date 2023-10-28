@@ -1,121 +1,189 @@
-    .MovieHomepage {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-color: #141414;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .mainmenu {
-        width: 95%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 25px;
-        color: #e50914; 
-        font-size: 35px; 
-        font-family: Rubik; 
-        font-weight: 700; 
-        word-wrap: break-word
-    }
-    
-    .mainmenu-right {
-        margin-right: 10px;
-        display: flex;
-        gap: 20px;
-        color: white; 
-        font-size: 20px; 
-        font-family: Bree Serif; 
-        font-weight: 400; 
-        word-wrap: break-word
-    }
-    
-    .Banner {
-        width: 95%;
-        background-color: #141414;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-    
-    .bannerinfo {
-        color: white; 
-        font-family: Lora;
-    }
-    
-    .bannerinfo_1 {
-        font-size: 27px;
-    }
+.MovieHomepage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414;
+    width: 100%;
+    height: 100%;
+}
 
-    .bannerinfo_2 {
-        font-size: 45px;
-        font-weight: bold;
-    }
+.mainmenu {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: #e50914;
+    font-size: 35px;
+    font-family: Rubik;
+    font-weight: 700;
+    word-wrap: break-word
+}
 
-    .bannerinfo2 {
-        height: 184px; 
-        color: white; 
-        font-size: 20px;
-        font-family: Lora; 
-        font-weight: normal; 
-        word-wrap: break-word
-    }
-    
-    .Top {
-        margin-top: 50px;
-        align-items: flex-start;
-    }
-    
-    .Bottom {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    
-    .movie-wraper {
-        width: 95%;
-        margin-top: 50px;
-        padding: 0px 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .main {
-        color: white; 
-        font-size: 30px; 
-        font-family: Lora; 
-        font-weight: bold;
-    }
+.web {
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Bree Serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
 
-    .boxoffice {
-        margin: 20px auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
+.Banner {
+    width: 95%;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bannerinfo {
+    color: white;
+    font-family: Lora;
+}
+
+.bannerinfo_1 {
+    font-size: 27px;
+}
+
+.bannerinfo_2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bannerinfo2 {
+    height: 184px;
+    color: white;
+    font-size: 20px;
+    font-family: Lora;
+    font-weight: normal;
+    word-wrap: break-word
+}
+
+.Top {
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+.Bottom {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.movie-wraper {
+    width: 95%;
+    margin-top: 50px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main {
+    color: white;
+    font-size: 30px;
+    font-family: Lora;
+    font-weight: bold;
+}
+
+.boxoffice {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ListItem {
+    margin: 15px 75px;
+}
+
+.ranking {
+    color: white;
+    background-color: #e50914;
+    font-weight: bold;
+    width: 20px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    position: absolute;
+}
+
+.movietitle {
+    width: 340px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Lora;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.attendance {
+    width: 340px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Lora;
+    font-weight: normal;
+    word-wrap: break-word
+}
+
+.Img {
+    width: 340px;
+}
+
+.footer {
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #C9C9C9;
+    font-size: 16px;
+    font-family: Lora;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1564px) {
     .ListItem {
-        margin: 15px 75px;
+        margin: 15px 60px;
     }
-    
-    .ranking {
-        color: white; 
-        background-color: #e50914; 
-        font-weight: bold; 
-        width: 20px; 
-        height: 25px; 
-        font-size: 15px; 
-        text-align: center; 
-        float: left; 
-        position: absolute;
+}
+
+@media screen and (max-width: 985px) {
+    .ListItem {
+        margin: 15px 50px;
     }
-    
+}
+
+@media screen and (max-width: 943px) {
+    .ListItem {
+        margin: 15px 40px;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    .ListItem {
+        margin: 15px 30px;
+    }
+
     .movietitle {
-        width: 340px;
+        width: 300px;
         height: 30px;
         text-align: center;
         color: white;
@@ -124,9 +192,10 @@
         font-weight: bold;
         word-wrap: break-word;
     }
-    
+
+
     .attendance {
-        width: 340px;
+        width: 300px;
         height: 30px;
         text-align: center;
         color: white;
@@ -135,141 +204,84 @@
         font-weight: normal;
         word-wrap: break-word
     }
-    
+
     .Img {
-        width: 340px;
+        width: 300px;
     }
-    
-    .footer {
-        background-color: #333333;
-        width: 100%;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; 
-        color: #C9C9C9; 
-        font-size: 16px; 
-        font-family: Lora; 
-        font-weight: 400; 
+}
+
+@media screen and (max-width: 797px) {
+
+
+    .bannerinfo2 {
+        height: 184px;
+        color: white;
+        font-size: 18px;
+        font-family: Lora;
+        font-weight: normal;
         word-wrap: break-word
     }
 
-    @media screen and (max-width: 1564px) {
-        .ListItem {
-            margin: 15px 60px;
-        }
+    .ListItem {
+        margin: 15px 10px;
     }
 
-    @media screen and (max-width: 985px) {
-        .ListItem {
-            margin: 15px 50px;
-        }
+}
+
+@media screen and (max-width: 698px) {
+
+    .bannerinfo2 {
+        height: 184px;
+        color: white;
+        font-size: 15px;
+        font-family: Lora;
+        font-weight: normal;
+        word-wrap: break-word
     }
 
-    @media screen and (max-width: 943px) {
-        .ListItem {
-            margin: 15px 40px;
-        }
+    .ListItem {
+        margin: 15px 75px;
     }
 
-    @media screen and (max-width: 901px) {
-        .ListItem {
-            margin: 15px 30px;
-        }
-
-        .movietitle {
-            width: 300px;
-            height: 30px;
-            text-align: center;
-            color: white;
-            font-size: 22px;
-            font-family: Lora;
-            font-weight: bold;
-            word-wrap: break-word;
-        }
-
-
-        .attendance {
-            width: 300px;
-            height: 30px;
-            text-align: center;
-            color: white;
-            font-size: 16px;
-            font-family: Lora;
-            font-weight: normal;
-            word-wrap: break-word
-        }
-
-        .Img {
-            width: 300px;
-        }
+    .movietitle {
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Lora;
+        font-weight: bold;
+        word-wrap: break-word;
     }
 
-    @media screen and (max-width: 797px) {
-        
-    
-        .bannerinfo2 {
-            height: 184px; 
-            color: white; 
-            font-size: 18px;
-            font-family: Lora; 
-            font-weight: normal; 
-            word-wrap: break-word
-        }
-
-        .ListItem {
-            margin: 15px 10px;
-        }
-
+    .attendance {
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        font-family: Lora;
+        font-weight: normal;
+        word-wrap: break-word
     }
 
-    @media screen and (max-width: 698px) {
-
-        .bannerinfo2 {
-            height: 184px; 
-            color: white; 
-            font-size: 15px;
-            font-family: Lora; 
-            font-weight: normal; 
-            word-wrap: break-word
-        }
-
-        .ListItem {
-            margin: 15px 75px;
-        }
-
-        .movietitle {
-            width: 300px;
-            height: 30px;
-            text-align: center;
-            color: white;
-            font-size: 22px;
-            font-family: Lora;
-            font-weight: bold;
-            word-wrap: break-word;
-        }
-
-        .attendance {
-            width: 300px;
-            height: 30px;
-            text-align: center;
-            color: white;
-            font-size: 16px;
-            font-family: Lora;
-            font-weight: normal;
-            word-wrap: break-word
-        }
-
-        .Img {
-            width: 300px;
-        }
-
-        .mainmenu-right {
-            display: none;
-        }
-
+    .Img {
+        width: 300px;
     }
+
+    /* .mainmenu-right {
+        display: none;
+    } */
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
 
 @media screen and (max-width: 550px) {
     .mainmenu {
@@ -278,13 +290,13 @@
         justify-content: space-between;
         align-items: center;
         padding: 25px;
-        color: #e50914; 
-        font-size: 30px; 
-        font-family: Rubik; 
-        font-weight: 700; 
+        color: #e50914;
+        font-size: 30px;
+        font-family: Rubik;
+        font-weight: 700;
         word-wrap: break-word
     }
-    
+
     .bannerinfo_1 {
         font-size: 20px;
     }
@@ -294,16 +306,16 @@
     }
 
     .poster {
-            width: 200px; 
-            height: 250px;
-        }
+        width: 200px;
+        height: 250px;
+    }
 
     .bannerinfo2 {
-        height: 184px; 
-        color: white; 
+        height: 184px;
+        color: white;
         font-size: 10px;
-        font-family: Lora; 
-        font-weight: normal; 
+        font-family: Lora;
+        font-weight: normal;
         word-wrap: break-word
     }
 
@@ -341,8 +353,84 @@
         width: 250px;
     }
 
-    .mainmenu-right {
+    .web {
         display: none;
     }
 
+    .mobile {
+        display: block;
+    }
+
 }
+
+/* Append */
+.hamburger {
+    height: 45px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.hamburger div {
+    background-color: white;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 35px;
+}
+
+#hover {
+    display: none;
+}
+
+#hover:hover+.hamburger .top {
+    transform: rotate(45deg);
+    margin-top: 22.5px;
+}
+
+#hover:hover+.hamburger .middle {
+    transform: rotate(-45deg);
+    margin-top: -5px;
+}
+
+#hover:hover+.hamburger .bottom {
+    transform: scale(0);
+}
+
+#hover +.hamburger {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    /* z-index 추가 */
+    z-index: 2;
+  }
+
+  #side_menu {
+    color: white;
+    font-size: 20px;
+    font-family: Bree Serif;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: gray;
+    right: -200px;
+    transition: all 200ms;
+    z-index: 1;
+    top: 0px;
+    padding: 60px 20px 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  #hover:checked + label + #side_menu {
+    right: 0;
+  }
+
+  .side_item>li {
+    margin:20px 0px;
+  }
